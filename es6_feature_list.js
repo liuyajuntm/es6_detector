@@ -8,8 +8,12 @@ var ES6_LIST = [
 	func : "\"use strict\";const num = 1;"
 },
 {
-	name : "destructuring",
+	name : "array_destructuring",
 	func : "\"use strict\";var x = 1; var y = 1; [x, y] = [y, x];"
+},
+{
+	name : "obj_destructuring",
+	func : "\"use strict\";var x = 1, y = 3;var {y:i, x:j} = {x,y};"
 },
 {
 	name : "tpl",
